@@ -1,0 +1,1 @@
+window.onload=function(){document.getElementsByClassName("tophead");new Carousel({el:document.getElementsByClassName("carousel")[0]})};
