@@ -16,8 +16,8 @@ img {
 	vertical-align: bottom;
 }
 body{
-    // position: relative;
-    font-family: '微软雅黑';
+    position: relative;
+    font-family: '????';
 }
 i{
     font-style: normal;
@@ -29,96 +29,34 @@ i{
         color:#e49303;
     }
 }
-
 //float-right
-#float-right{
-    top:30%;
+.float-right{
+    top:264px;
     right: 0;
     position: fixed;
     width:50px;
     height: 236px;
     background: #c1bfc0;
+    position: fixed;
     border-radius: 10px 0 0 10px;
     z-index: 2;
     opacity: 0.5px;
-    text-align: center;
-    .uul{
-        display: block;
-        margin-top: 10px;
-        .listt{
-            text-align: center;
-            height: 30px;
-            width: auto;
-            padding: 0;
-            border: 0;
-            overflow: inherit;
-            position: relative;
-            .tel_icon{
-                    background-image: url(../../img-shop/tel_icon.png);
-                    width: 26px;
-                    height: 26px;
-                    display: block;
-                    margin: 16px auto 0;
-            }
-            .edit_icon{
-                    background-image: url(../../img-shop/edit_icon.png);
-                    width: 26px;
-                    height: 26px;
-                    display: block;
-                    margin: 16px auto 0;
-            }
-            .mail_icon{
-                    background-image: url(../../img-shop/mail_icon.png);
-                    width: 26px;
-                    height: 26px;
-                    display: block;
-                    margin: 16px auto 0;
-            }
-            .map_icon{
-                    background-image: url(../../img-shop/map_icon.png);
-                    width: 26px;
-                    height: 26px;
-                    display: block;
-                    margin: 16px auto 0;
-            }
-        }
-    }
 }
-#state-btn{
+.state-btn{
     vertical-align: middle;
     text-align: center;
     position: absolute;
     right: 5px;
     top: 250px;
     width: 32px;
-    height: 52px;
     border-radius:50%;
+    background: #c1bfc0;
     z-index: 2;
     opacity: 0.5px;
     padding:5px 0;
-    .display{
-            display: inline-block;
-            width: 32px;
-            height: 32px;
-            background-image: url(../../img-shop/hide_btn.png);
+    a{
+        color:white;
     }
-}
-
-//吸底效果
-#back-bottom-z{
-    position: fixed;
-    right: 5px;
-    width: 60px;
-    height: 60px;
-    background: transparent url(../../img-shop/back_top_Z.png) no-repeat center;
-    outline: none;
-    border-radius: 8px;
-    z-index: 50;
-    opacity: 0.9;
-}
-.bottom-show{
-    transition:all 1s;
-    bottom:5px;
 }
 
 //tophead
@@ -1860,16 +1798,16 @@ i{
 
 }
 
-// //float-down
-// #backTop{
-//     // display: block;
-//     position: fixed;
-//     right:5px;
-//     bottom:5px;
-//     width:60px;
-//     height:60px;
-//     background:black;
-//     opacity: 0.6;
-//     border-radius: 8px;
-//     z-index: 50;
-// }
+//float-down
+#backTop{
+    // display: block;
+    position: fixed;
+    right:5px;
+    bottom:5px;
+    width:60px;
+    height:60px;
+    background:black;
+    opacity: 0.6;
+    border-radius: 8px;
+    z-index: 50;
+}
